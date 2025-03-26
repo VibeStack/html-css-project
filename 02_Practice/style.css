@@ -18,6 +18,11 @@ body{
     font-size: 3rem;
 }
 .hashtag-header span{
+    font-family: sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg,orange,white,green);
+    color: transparent;
+    background-clip: text;
     font-size: 24px;
 }
 .hashtag-header img{
