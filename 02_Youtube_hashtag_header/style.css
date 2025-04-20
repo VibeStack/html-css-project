@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: sans-serif;
@@ -41,4 +44,23 @@ img {
     flex-direction: row-reverse;
     vertical-align: middle;
     margin-left: 32px;
+}
+
+
+
+/* Float Learning */
+.floatLearning{
+    margin-top: 10px;
+    background-color: #055fd4bd;
+    display: flow-root;
+    padding: 10px;
+}
+.floatLearning img{
+    margin-inline: 1rem;
+    float: right;
+    width: 500px;
+    background-image: contain;
+}
+.floatLearning p{
+    color: white;
 }
